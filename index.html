@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Static Web App DB Test</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f5f7fb;
+      color: #1f2937;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #dbe2ea;
+      border-radius: 12px;
+      padding: 24px;
+      max-width: 800px;
+    }
+
+    button {
+      padding: 10px 16px;
+      border: none;
+      border-radius: 8px;
+      background: #2563eb;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    pre {
+      background: #111827;
+      color: white;
+      padding: 16px;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+
+    .success {
+      color: #166534;
+      font-weight: bold;
+    }
+
+    .error {
+      color: #991b1b;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Static Web App → API → MySQL Test</h1>
+    <p>Deze pagina test of de Static Web App via een API de database kan bereiken.</p>
+
+    <button onclick="testDatabase()">Test database</button>
+
+    <h2>Resultaat</h2>
+    <div id="status">Nog niet getest</div>
+    <pre id="output"></pre>
+  </div>
+
+  script.jsscript>
+</body>
+</html>
