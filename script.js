@@ -6,7 +6,7 @@ async function testDatabase() {
   statusElement.className = "";
   outputElement.innerText = "";
 
-  const apiUrl = "https://api-static-db-test.azurewebsites.net/api/testdb.php";
+  const apiUrl = "https://api-static-db-test-fqdgfshcarb6dbfr.spaincentral-01.azurewebsites.net/api/testdb.php";
 
   try {
     const response = await fetch(apiUrl);
